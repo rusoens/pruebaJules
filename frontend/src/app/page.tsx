@@ -87,8 +87,3 @@ export default function HomePage() {
     </>
   );
 }
-
-export const metadata = {
-  title: 'Bolsa de Trabajo de Oficios - Inicio',
-  description: 'Plataforma para conectar clientes y profesionales de oficios.',
-};
