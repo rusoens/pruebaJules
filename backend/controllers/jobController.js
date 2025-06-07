@@ -43,7 +43,7 @@ exports.getJobs = async (req, res, next) => {
 // @route   GET /api/jobs/:jobId
 // @access  Public (o Private)
 exports.getJobById = async (req, res, next) => {
-  try {.
+  try { // CORRECTED LINE
     const job = await Job.findById(req.params.jobId).populate({
         path: 'client',
         select: 'name email'
